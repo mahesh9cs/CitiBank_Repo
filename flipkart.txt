@@ -1,3 +1,7 @@
 This is first line in flipkart.
+<<<<<<< HEAD
 This is second line in flipkart
 New restore
+=======
+This is second line in flipkart.
+>>>>>>> 736db7a83d045ab0be1154f6b6d1c420889f50cf
