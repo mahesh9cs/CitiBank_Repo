@@ -58,3 +58,4 @@ Merge conflits occur in two ways
 1. while pulling file with same line modifies content ( note : to reslove merge request we need to edit jung lines or junk content manually )-- and decide where yor code needs to be palce by arranging an meeting with the person who recently commited )[Dfile )
 
 2. while merging two branch we make pull request [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Ds we make pull request at that time if main branch have code in same file in same line we face merge conflicts and we need to reslove them manually.
+This is new line used to test git stash
