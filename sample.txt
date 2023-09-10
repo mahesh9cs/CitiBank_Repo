@@ -1,0 +1,60 @@
+below are the git commands
+git config --global user.name ""[DMahesh3Cs"
+git config --global user.mail ""[Dmahesh.g1707@gmail.com"
+git init ( used to initial the git repository )[A[C[C[C[C[C[C[C ( introduction for git bash for first time )[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D
+create any file now its in unstage area[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D( now its in unstaged area )
+git add . ( moves new files and modified files to staging area )
+git add <>[Dfile name >[D[D[D[D[D[D[D[D[D[D[D file name > moves particular file to staging area
+git restore ( undo the changes in the file )
+git restore --staged < file name >[A[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C < file name > (undo the changes made in file )[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D( moves file from staging area to unstage )
+git commit -m ""[Dmsg" ( moves file to staging area )
+git p[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[loacal repostiory )[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dush ( pushes the file from local area to remote repository )
+git clone ( repo ulr ) -- copies the project from remote repo to local repo
+git pull ( pulls modified files from remote repo to local  repo )
+note : it's an agressive methode, it will replace old unmodified files 
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ( instead go with git fetch to have a copy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[C[C[B[B[B[D)
+[A[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A[B[B[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C
+git remote add origin ( repo ulr ) -- for first time to make connection for remote to local repo
+
+Branches :
+----------
+git branch -- displays current working branch
+git checkout < branch name > -- moves to other branch
+
+Merge Conflits :
+----------------
+Merge conflits occur in two ways 
+
+1. while pulling file with same line modifies content ( note : to reslove merge request we need to edit jung lines or junk content manually )-- and decide where yor code needs to be palce by arranging an meeting with the person who recently commited )[Dfile )
+
+2. while merging two branch we make pull request [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Ds we make pull request at that time if main branch have code in same file in same line we face merge conflicts and we need to reslove them manually.
